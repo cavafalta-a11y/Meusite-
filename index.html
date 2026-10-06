@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luz e Pele · blog de fotografia sensual</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;1,500&family=Jost:wght@400;500&display=swap">
+<style>
+:root{--bg:#f6ece8;--ink:#2a1519;--mute:#7a5a5f;--line:#dcc4c0;--accent:#9c2f47;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1015;--ink:#f3e4de;--mute:#b99ba0;--line:#3a2229;--accent:#e0708a}}
+:root[data-theme="dark"]{--bg:#1b1015;--ink:#f3e4de;--mute:#b99ba0;--line:#3a2229;--accent:#e0708a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Jost,system-ui,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{padding:28px 0 8px;display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+.logo{font:italic 500 26px 'Bodoni Moda',Georgia,serif}
+nav a{color:var(--mute);text-decoration:none;margin-left:18px}
+nav a:hover,nav a:focus-visible{color:var(--accent)}
+h1{font:500 clamp(40px,9vw,84px)/1.02 'Bodoni Moda',Georgia,serif;margin:48px 0 16px;letter-spacing:-.01em}
+.lead{max-width:46ch;color:var(--mute);margin:0 0 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+figure{margin:0}
+.ph{aspect-ratio:3/4;border-radius:2px;display:flex;align-items:flex-end;padding:12px;color:#fff;font-size:13px}
+.ph.a{background:radial-gradient(120% 80% at 30% 20%,#e9b3a0,#7a2c3d 70%,#2a1017)}
+.ph.b{background:radial-gradient(100% 90% at 70% 15%,#f2d2b8,#a2523f 65%,#33161a)}
+.ph.c{background:radial-gradient(110% 80% at 50% 10%,#d79ab0,#5e2740 70%,#1d0e16)}
+.ph.d{background:radial-gradient(120% 90% at 20% 30%,#ecc6aa,#8c3a3a 65%,#2b1215)}
+figcaption{padding:8px 0 0;font-size:14px;color:var(--mute)}
+h2{font:500 30px 'Bodoni Moda',Georgia,serif;margin:64px 0 16px}
+article{border-top:1px solid var(--line);padding:20px 0;display:grid;grid-template-columns:110px 1fr;gap:16px}
+article time{color:var(--mute);font-size:14px}
+article h3{margin:0 0 4px;font:500 20px 'Bodoni Moda',Georgia,serif}
+article p{margin:0;color:var(--mute)}
+a.btn{display:inline-block;margin-top:24px;padding:12px 22px;background:var(--accent);color:#fff;text-decoration:none;border-radius:2px;border:0;font:500 16px Jost,sans-serif;cursor:pointer}
+a.btn:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+footer{margin:72px 0 40px;padding-top:20px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+#gate{position:fixed;inset:0;background:var(--bg);z-index:10;display:flex;align-items:center;justify-content:center;padding:24px;text-align:center}
+#gate div{max-width:380px}
+#gate h2{margin:0 0 12px}
+#gate .no{display:block;margin-top:14px;color:var(--mute)}
+@media (max-width:520px){article{grid-template-columns:1fr;gap:4px}}
+</style>
+</head>
+<body>
+<div id="gate" role="dialog" aria-modal="true" aria-labelledby="gt">
+ <div>
+  <h2 id="gt">Conteúdo para maiores de 18 anos</h2>
+  <p>Este blog tem fotografia sensual. Confirme que você tem 18 anos ou mais para entrar.</p>
+  <button class="btn" id="yes">Tenho 18 anos ou mais</button>
+  <a class="no" href="https://www.google.com">Sair</a>
+ </div>
+</div>
+
+<div class="wrap">
+ <header>
+  <span class="logo">Luz e Pele</span>
+  <nav><a href="#fotos">Fotos</a><a href="#posts">Textos</a><a href="#sobre">Sobre</a></nav>
+ </header>
+
+ <h1>Fotografia sensual, feita com calma.</h1>
+ <p class="lead">Ensaios, bastidores e dicas de luz, pose e edição. Novas fotos toda semana.</p>
+
+ <section id="fotos" class="grid" aria-label="Fotos recentes">
+  <figure><div class="ph a">Foto 1</div><figcaption>Luz de janela, tarde</figcaption></figure>
+  <figure><div class="ph b">Foto 2</div><figcaption>Silhueta contra a cortina</figcaption></figure>
+  <figure><div class="ph c">Foto 3</div><figcaption>Sombras e tecido</figcaption></figure>
+  <figure><div class="ph d">Foto 4</div><figcaption>Retrato em tons quentes</figcaption></figure>
+ </section>
+
+ <h2 id="posts">Últimos textos</h2>
+ <article><time>05 out 2026</time><div><h3>Como usar luz natural em ensaios</h3><p>Janela, horário e rebatedor: o básico para pele bonita sem flash.</p></div></article>
+ <article><time>28 set 2026</time><div><h3>Poses que ficam naturais</h3><p>Três ajustes simples para o modelo relaxar diante da câmera.</p></div></article>
+ <article><time>20 set 2026</time><div><h3>Edição sutil: cor e contraste</h3><p>Um fluxo curto para realçar tons de pele sem exagerar.</p></div></article>
+
+ <h2 id="sobre">Sobre</h2>
+ <p class="lead">Escreva aqui quem você é e como trabalha. Todas as fotos mostram adultos que deram consentimento por escrito.</p>
+ <a class="btn" href="mailto:contato@exemplo.com">Entrar em contato</a>
+
+ <footer>© 2026 Luz e Pele. Conteúdo adulto, só para maiores de 18 anos.</footer>
+</div>
+
+<script>
+(function(){
+ var g=document.getElementById('gate');
+ try{ if(sessionStorage.getItem('ok18')==='1'){ g.style.display='none'; } }catch(e){}
+ document.getElementById('yes').addEventListener('click',function(){
+  g.style.display='none';
+  try{ sessionStorage.setItem('ok18','1'); }catch(e){}
+ });
+})();
+</script>
+</body>
+</html>
